@@ -38,9 +38,12 @@ main() {
     fi
   done
 
-  #remove '#' in output if using a tty template
+  #remove '#' in output if using a tty or fbterm template
   if [ "$template_file" = "templates/linux_tty" ]; then
     fix=$(cat "$output_file" | sed "/[0-9a-zA-Z]\"$/ s/\#//")
+    echo "$fix" > "$output_file"
+  elif [ "$template_file" = "templates/fbterm" ]; then
+    fix=$(cat "$output_file" | sed "1,18s/\#//")
     echo "$fix" > "$output_file"
   fi
 
