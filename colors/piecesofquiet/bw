@@ -1,8 +1,8 @@
-$COLOR_FG$ #ffffff 
+$COLOR_FG$ #afafaf 
 $COLOR_BG$ #000000
-$COLOR_CR$ #ffffff
+$COLOR_CR$ #afafaf
 
-$COLOR_0$ #aaaaaa
+$COLOR_0$ #000000
 $COLOR_8$ #aaaaaa
 
 $COLOR_1$ #eeeeee
@@ -23,5 +23,5 @@ $COLOR_13$ #bbbbbb
 $COLOR_6$ #222222
 $COLOR_14$ #222222
 
-$COLOR_7$ #444444
+$COLOR_7$ #afafaf
 $COLOR_15$ #444444
